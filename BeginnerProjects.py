@@ -21,6 +21,7 @@ vowelTrack = {}
 answer = [temp for temp in x if temp in vowels]
 
 #generate count of vowels from input
+for vowel in answer:
     vowelTrack[vowel] = x.count(vowel)
 
 print("Number of vowels: ", len(answer))
